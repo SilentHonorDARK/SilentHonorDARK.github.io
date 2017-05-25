@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  font-family: 'Nunito', sans-serif;
+  background: url("http://ichef.bbci.co.uk/wwfeatures/wm/live/1280_640/images/live/p0/0v/yn/p00vynyx.jpg") no-repeat fixed center;
+}
+
+.menubar {
+  text-align: center;
+}
+
+.menubar ul {
+  list-style: none;
+  display: inline-block;
+}
+
+.menubar ul li {
+  float: left;
+  margin: 0 20px;
+}
+
+.menubar ul li a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+}
+
+.menubar li a:hover {
+  color: rgb(219, 168, 213);
+  font-size: 25px;
+  font-style: bold;
+}
