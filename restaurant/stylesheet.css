@@ -19,6 +19,7 @@ header{
 .menubar ul {
   list-style: none;
   display: inline-block;
+  float: right;
 }
 
 .menubar ul li {
@@ -35,5 +36,5 @@ header{
 .menubar li a:hover {
   color: rgb(219, 168, 213);
   font-size: 25px;
-  font-style: bold;
 }
+
