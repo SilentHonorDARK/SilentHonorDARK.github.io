@@ -1,7 +1,15 @@
 body {
   margin: 0;
   font-family: 'Nunito', sans-serif;
-  background: url("http://ichef.bbci.co.uk/wwfeatures/wm/live/1280_640/images/live/p0/0v/yn/p00vynyx.jpg") no-repeat fixed center;
+  background: url("http://www.breezes.com/images/bzb_dining_reggae_cafe_food.jpg?crc=28959066") no-repeat center center fixed;
+background-size: cover;
+}
+
+header{
+    width: 100%;
+    height: 65px;
+    background: rgba(150, 163, 183, 0.5);
+    overflow: hidden;
 }
 
 .menubar {
