@@ -1,6 +1,5 @@
 body {
   margin: 0px;
-  font-family: 'Didact Gothic', sans-serif;
 }
 
 hr {
@@ -14,7 +13,7 @@ hr {
 header {
   width: 100%;
   height: 110px;
-  background: rgba(150, 163, 183, 1);
+  background: rgb(211, 211, 211);
   overflow: hidden;
 }
 
@@ -25,11 +24,12 @@ header {
 .menubar ul {
   list-style: none;
   display: block;
+  font-family: 'Didact Gothic', sans-serif;
 }
 
 .menubar ul li {
   float: left;
-  margin: 0px 30px;
+  margin: 0px 35px 0px 25px;
 }
 
 .menubar ul li a {
@@ -40,4 +40,10 @@ header {
 
 .menubar li a:hover {
   border-bottom: 2px solid rgb(255, 42, 0);
+}
+
+img {
+  width: 100%;
+  height: 70%;
+  opacity: 0.75;
 }
