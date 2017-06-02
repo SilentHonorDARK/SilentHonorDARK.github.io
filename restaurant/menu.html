@@ -1,23 +1,177 @@
 <!DOCTYPE html>
- <html>
+<html>
+
   <head>
-<link href="https://fonts.googleapis.com/css?family=Didact+Gothic" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
-<link type="text/css" rel="stylesheet" href="stylesheet.css">
+    <link href="https://fonts.googleapis.com/css?family=Didact+Gothic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">  
+    <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="stylesheet.css">
+    <style>
+      h5 {
+        font-size: 40px;
+        font-family: "Georgia", serif;
+        margin: 50px;
+        color: rgb(59, 121, 90)
+      }
+      
+      body {
+        margin: 0px;
+      }
+      
+      table,
+      th,
+      td {
+        border: 2px solid white;
+        border-collapse: collapse;
+        font-family: 'Slabo 27px', serif;
+      }
+      
+      th,
+      td {
+        padding: 8px;
+      }
+      
+      thead {
+        color: rgb(123, 73, 12);
+        font-size: 25px;
+        text-align: center;
+      }
+      
+      img {
+        width: 150px;
+        height: 110px;
+      }
+      
+      body {
+        margin: 0px;
+      }
+      
+      hr {
+        border: none;
+        border: 0px;
+        border-top: 2px solid rgba(255, 255, 255, 1);
+        margin-top: 25px;
+        margin-right: 25px;
+      }
+      
+      header {
+        width: 100%;
+        height: 110px;
+        background: rgb(211, 211, 211);
+        overflow: hidden;
+      }
+      
+      .menubar {
+        text-align: center;
+      }
+      
+      .menubar ul {
+        list-style: none;
+        display: block;
+        font-family: 'Didact Gothic', sans-serif;
+      }
+      
+      .menubar ul li {
+        float: left;
+        margin: 0px 35px 0px 25px;
+      }
+      
+      .menubar ul li a {
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+      }
+      
+      .menubar li a:hover {
+        border-bottom: 2px solid rgb(255, 42, 0);
+      }
+      
+      .background {
+        width: 100%;
+        height: 650px;
+        position: relative;
+        background: url('https://media.timeout.com/images/100516997/image.jpg') no-repeat;
+        background-size: cover;
+        overflow: hidden;
+      }
+      
+      .background .text {
+        text-align: center;
+        margin-top: 220px;
+      }
+      
+      .background .text h1 {
+        color: rgb(255, 255, 255);
+        font-family: 'Kaushan Script', cursive;
+        font-size: 100px;
+        letter-spacing: -5px;
+        margin: 0;
+        padding: 0;
+        font-weight: normal;
+      }
+      
+      .logo {
+        float: left;
+      }
+
+    </style>
   </head>
-  
- <body>
-  <header>
-    <div class="menubar">
-      <ul>
-        <hr>
-        <li><a class="active" href="home.html">Home</a></li>
-        <li><a href="menu.html">Menu</a></li>
-        <li><a href="reservation.html">Reservation</a></li>
-        <li><a href="location.html">Location</a></li>
-        <li style="float:right"><a href="about.html">About</a></li>
-      </ul>
-    </div> 
-   </header>
+
+  <body>
+    <header>
+      <div class="menubar">
+        <ul>
+          <hr>
+          <li><a class="active" href="home.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="reservation.html">Reservation</a></li>
+          <li><a href="location.html">Location</a></li>
+          <li style="float:right"><a href="about.html">About</a></li>
+        </ul>
+      </div>
+    </header>
+    <h5> Menu </h5>
+    <center>
+      <table>
+        <thead>
+          <tr>
+            <th>NAME OF THE DISH</th>
+            <th>DESCRIPTION OF THE DISH</th>
+            <th>IMAGE OF THE DISH</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>Luminescence Roti (Moonlight roti)</th>
+            <th>Specially prepared roti on the Moon with solar energy (sunlight)!
+              <br/> The roti is cooked for 10,000,000,000,000,000,000,000 zeptoseconds (10 seconds)
+              <br/> on a titanium furnace to bring all the combinations of flavours into your mouth!.
+              <br/> Tasty!
+            </th>
+            <th><img src="http://charismaofindia.ca/product/roti1401476138.png"></th>
+          </tr>
+          <tr>
+            <th>Fluorescent Sushi</th>
+            <th>Only availiable on our restuarant out of the whole Universe.
+              <br/> Made 10 light years away from the resturant on the star Betelgeuse.
+              <br/> Fresh! Healty! Delicious! Yummy!! </th>
+            <th><img src="http://pngimg.com/uploads/sushi/sushi_PNG9266.png"></th>
+          </tr>
+          <tr>
+            <th>Illuminating Taco</th>
+            <th>A traditional Martian dish. Most sold dish at our restaurnat.
+              <br> Filled with speical stuffing from the planet Vegeta.</th>
+            <th><img src="http://www.stickpng.com/assets/thumbs/58727fb4f3a71010b5e8ef08.png"></th>
+          </tr>
+          <tr>
+            <th>(Radiant Noodels) Spacial Ramen</th>
+            <th>Made from the freshest noodles availiable from the enitre Universe.
+              <br/> The broth is made from the rarset kind of beef on the planet
+              <br/> and is heated on the core on the Moon. </th>
+            <th><img src="http://dosankolarmenusa.com/wp-content/uploads/2015/12/red-miso.png"></th>
+          </tr>
+        </tbody>
+      </table>
+    </center>
   </body>
- </html>
+</html>
