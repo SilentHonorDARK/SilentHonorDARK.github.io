@@ -71,7 +71,8 @@ header {
 }
 
 .logo img {
-  width: 650;
+  width: 650px;
   height: 400px;
+  overflow: hidden;
 }
   
