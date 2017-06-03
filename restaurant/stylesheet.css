@@ -69,3 +69,9 @@ header {
 .logo {
   float: left;
 }
+
+.logo img {
+  width: 650;
+  height: 400px;
+}
+  
