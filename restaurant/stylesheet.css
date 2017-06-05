@@ -22,16 +22,16 @@ header {
 	display: block;
 	font-family: 'Didact Gothic', sans-serif;
 }
-.menubar ul, li {
+.menubar ul li {
 	float: left;
 	margin: 0px 35px 0px 25px;
 }
-.menubar ul, li, a {
+.menubar ul li a {
 	text-decoration: none;
 	color: rgb(255, 255, 255);
 	font-size: 20px;
 }
-.menubar li, a:hover {
+.menubar li a:hover {
 	border-bottom: 2px solid rgb(255, 42, 0);
 }
 .background {
@@ -66,11 +66,11 @@ header {
 	margin: 50px;
 	color: rgb(59, 121, 90)
 }
-.menu table, th, td {
+.menu table th td {
 	border-collapse: collapse;
     font-family: 'Lato', sans-serif;
 }
-.menu th, td {
+.menu th td {
 	padding: 8px;
 }
 .menu thead {
@@ -78,7 +78,7 @@ header {
 	font-size: 25px;
 	text-align: center;
 }
-.menu th, img {
+.menu th img {
 	width: 150px;
 	height: 110px;
 }
