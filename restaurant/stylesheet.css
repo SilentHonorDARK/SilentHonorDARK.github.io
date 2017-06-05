@@ -70,7 +70,7 @@ header {
 	border-collapse: collapse;
     font-family: 'Lato', sans-serif;
 }
-.menu th, td {
+.menu th td {
 	padding: 8px;
 }
 .menu thead {
@@ -78,7 +78,7 @@ header {
 	font-size: 25px;
 	text-align: center;
 }
-.menu img {
+.menu th img {
 	width: 150px;
 	height: 110px;
 }
