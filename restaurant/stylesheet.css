@@ -57,6 +57,17 @@ header {
 	padding: 0;
 	font-weight: normal;
 }
+
+.background .text h4 {
+	color: rgb(155, 155, 245);
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 30px;
+	letter-spacing: 3px;
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+}
+
 .logo {
 	float: left;
 	width: 150px;
@@ -68,7 +79,7 @@ header {
 	font-size: 40px;
 	font-family: "Didact Gothic", serif;
 	margin: 50px;
-	color: rgb(59, 121, 90);
+	color: rgb(159, 221, 90);
  
 }
 .menu table th td {
@@ -80,7 +91,7 @@ header {
 	padding: 8px;
 }
 .menu thead {
-	color: rgb(123, 73, 12);
+	color: rgb(223, 173, 12);
 	font-size: 25px;
 	text-align: center;
 
@@ -103,11 +114,65 @@ header {
 	margin-top: 50px;
 	color: rgb(254, 229, 249);
 }
+p {
+	font-family: 'Shadows Into Light', cursive;
+	color: rgb(64, 213, 176);
+}
 
-.background-reservation {
+.location123 {
+	background: url('https://silenthonordark.github.io/restaurant/images/location-background.jpg')no-repeat;
+	width: 100%;
+	height: 900px;
+	z-index: -1;
+	position: absolute;
+	background-size: cover;
+	top: 10px;
+} 
+
+.background-reservation, .complete-background {
 	width: 100%;
 	height: 950px;
 	position: absolute;
 	background: url('https://silenthonordark.github.io/restaurant/images/background-reservation.jpg')no-repeat;
 	background-size: cover;
+	z-index: -1;
+}
+iframe {
+   margin: 10px;
+}
+.complete {
+	color: rgb(255, 255, 255);
+	position: absolute;
+	text-align: center;
+	font-size: 50px;
+	top: 50px;
+	font-family: 'Shadows Into Light', cursive;
+	margin-top: 350px;
+	margin-left: 130px;
+}
+
+.about123 {
+	margin: 100px;
+}
+
+h4 {
+	font-family: 'Khula', sans-serif;
+	color: rgb(183, 242, 158);
+	font-size: 40px;
+}
+
+h3 {
+	font-family: 'Khula', sans-serif;
+	color: rgb(42, 71, 210);
+	font-size: 20px;
+}
+
+.about-background {
+	background: url('https://silenthonordark.github.io/restaurant/images/about-background.jpg')no-repeat;
+	width: 100%;
+	height: 950px;
+	position: absolute;
+	background-size: cover;
+	z-index: -1;
+	text-indent: -99999px;
 }
