@@ -167,6 +167,10 @@ h3 {
 	font-size: 20px;
 }
 
+h5 {
+	color: rgb(56, 190, 214)
+}
+
 .about-background {
 	background: url('https://silenthonordark.github.io/restaurant/images/about-background.jpg')no-repeat;
 	width: 100%;
