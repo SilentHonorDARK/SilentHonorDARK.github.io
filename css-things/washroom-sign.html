@@ -1,0 +1,204 @@
+<body bgcolor="gray">
+  <div class="frame"></div>
+  <div class="line"></div>
+
+  <div id="woman">
+    <div class="circle"></div>
+    <div class="upperbody"></div>
+    <div class="armleft"></div>
+    <div class="armright"></div>
+    <div class="body"></div>
+    <div class="legleft"></div>
+    <div class="legright"></div>
+    <div class="blackline"></div>
+  </div>
+
+  <div id="man">
+    <div class="circle"></div>
+    <div class="upperbody"></div>
+    <div class="armright"></div>
+    <div class="armleft"></div>
+    <div class="body"></div>
+    <div class="legleft"></div>
+    <div class="legright"></div>
+  </div>
+</body>
+<style>
+.frame {
+  width: 500px;
+  height: 600px;
+  border-radius: 40px;
+  background: black;
+  position: relative;
+  z-index: -2;
+}
+
+.line {
+  width: 5px;
+  height: 400px;
+  position: relative;
+  background: white;
+  left: 245px;
+  bottom: 520px;
+}
+
+#woman .circle {
+  width: 70px;
+  height: 70px;
+  background: white;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  position: relative;
+  bottom: 900px;
+  left: 80px;
+}
+
+#woman .upperbody {
+  width: 100px;
+  height: 40px;
+  background: white;
+  border-radius: 40px;
+  position: relative;
+  bottom: 895px;
+  left: 65px;
+}
+
+#woman .armleft {
+  width: 120px;
+  height: 25px;
+  background: white;
+  border-radius: 40px;
+  position: relative;
+  right: 1px;
+  bottom: 884px;
+  transform: rotate(112deg);
+}
+
+#woman .armright {
+  width: 120px;
+  height: 25px;
+  background: white;
+  border-radius: 40px;
+  position: relative;
+  bottom: 909px;
+  left: 111px;
+  transform: rotate(248deg);
+}
+
+#woman .body {
+  width: 0;
+  height: 0;
+  border-left: 60px solid transparent;
+  border-right: 60px solid transparent;
+  border-bottom: 150px solid white;
+  position: relative;
+  bottom: 990px;
+  left: 55px;
+}
+
+#woman .legleft {
+  width: 120px;
+  height: 25px;
+  background: white;
+  border-radius: 40px;
+  position: relative;
+  bottom: 950px;
+  left: 30px;
+  transform: rotate(90deg);
+  z-index: -1;
+}
+
+#woman .legright {
+  width: 120px;
+  height: 25px;
+  background: white;
+  border-radius: 40px;
+  position: relative;
+  bottom: 975px;
+  left: 80px;
+  transform: rotate(90deg);
+  z-index: -1;
+}
+
+.blackline {
+  width: 10px;
+  height: 5px;
+  background: black;
+  position: relative;
+  bottom: 1190px;
+  left: 108px;
+}
+
+#man .circle {
+  width: 70px;
+  height: 70px;
+  background: white;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  position: relative;
+  bottom: 1265px;
+  left: 330px;
+}
+
+#man .upperbody {
+  width: 130px;
+	height: 40px;
+	background: white;
+  position: relative;
+  bottom: 1260px;
+  left: 300px;
+  
+}
+
+#man .armright {
+  width: 25px;
+  height: 140px;
+  background: white;
+  border-radius: 40px;
+  position: relative;
+  bottom: 1300px;
+  left: 415px;
+}
+
+#man .armleft {
+  width: 25px;
+  height: 140px;
+  background: white;
+  border-radius: 40px;
+  position: relative;
+  bottom: 1440px;
+  left: 285px;
+}
+
+#man .body {
+  width: 90px;
+  height: 100px;
+  position: relative;
+  background: white;
+  bottom: 1540px;
+  left: 317.5px;
+  
+}
+
+#man .legleft {
+  width: 25px;
+  height: 130px;
+  position: relative;
+  background: white;
+  border-radius: 20px;
+  bottom: 1550px;
+  left: 330px;
+}
+
+#man .legright {
+  width: 25px;
+  height: 130px;
+  position: relative;
+  background: white;
+  border-radius: 20px;
+  bottom: 1680px;
+  left: 374px;
+}
+</style>
